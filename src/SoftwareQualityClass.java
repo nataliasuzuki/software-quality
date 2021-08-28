@@ -1,6 +1,10 @@
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
+import javax.swing.JPanel;
+import java.awt.BorderLayout;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
 
 public class SoftwareQualityClass {
 
@@ -36,6 +40,10 @@ public class SoftwareQualityClass {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Qualidade");
+		lblNewLabel.setBounds(114, 33, 71, 14);
+		frame.getContentPane().add(lblNewLabel);
 	}
-
 }
