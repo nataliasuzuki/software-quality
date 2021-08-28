@@ -8,7 +8,7 @@ Indicadores de processos nível G seguindo essa tabela como exemplo de amostrage
 Capacidade de Processos de Projeto nível G seguindo esses três critérios:
 ![image](https://user-images.githubusercontent.com/61856025/131229048-973ba3e2-4d07-4169-a8fd-596ba4cedf69.png)
 
-Implementação e aplicação testes (por exemplo TDD) padronizados no sistema.
+Implementação e aplicação testes usando JUnit.
 
 Este projeto faz:
 
