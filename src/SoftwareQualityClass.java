@@ -79,7 +79,7 @@ public class SoftwareQualityClass {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 470);
+		frame.setBounds(100, 100, 450, 500);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -93,7 +93,7 @@ public class SoftwareQualityClass {
 		
 		textField = new JTextField();
 		textField.setToolTipText("GPR 1 (A partir do n\u00EDvel G) O escopo do trabalho para o projeto \u00E9 estabelecido, mantido atualizado e utilizado.");
-		textField.setBounds(67, 40, 179, 20);
+		textField.setBounds(95, 42, 179, 20);
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
 		
@@ -104,7 +104,7 @@ public class SoftwareQualityClass {
 		textField_1 = new JTextField();
 		textField_1.setToolTipText("");
 		textField_1.setColumns(10);
-		textField_1.setBounds(67, 69, 179, 20);
+		textField_1.setBounds(95, 71, 179, 20);
 		frame.getContentPane().add(textField_1);
 		
 		JLabel lblNewLabel_1_2 = new JLabel("GPR6");
@@ -113,7 +113,7 @@ public class SoftwareQualityClass {
 		
 		textField_2 = new JTextField();
 		textField_2.setColumns(10);
-		textField_2.setBounds(67, 98, 179, 20);
+		textField_2.setBounds(95, 100, 179, 20);
 		frame.getContentPane().add(textField_2);
 		
 		JLabel lblNewLabel_1_3 = new JLabel("GPR8");
@@ -122,7 +122,7 @@ public class SoftwareQualityClass {
 		
 		textField_3 = new JTextField();
 		textField_3.setColumns(10);
-		textField_3.setBounds(67, 127, 179, 20);
+		textField_3.setBounds(95, 129, 179, 20);
 		frame.getContentPane().add(textField_3);
 		
 		JLabel lblNewLabel_1_4 = new JLabel("GPR9");
@@ -131,16 +131,16 @@ public class SoftwareQualityClass {
 		
 		textField_4 = new JTextField();
 		textField_4.setColumns(10);
-		textField_4.setBounds(67, 156, 179, 20);
+		textField_4.setBounds(95, 158, 179, 20);
 		frame.getContentPane().add(textField_4);
 		
 		JLabel lblNewLabel_1_5 = new JLabel("GPR11");
-		lblNewLabel_1_5.setBounds(21, 188, 36, 14);
+		lblNewLabel_1_5.setBounds(21, 188, 50, 14);
 		frame.getContentPane().add(lblNewLabel_1_5);
 		
 		textField_5 = new JTextField();
 		textField_5.setColumns(10);
-		textField_5.setBounds(67, 185, 179, 20);
+		textField_5.setBounds(95, 187, 179, 20);
 		frame.getContentPane().add(textField_5);
 		
 		JButton btnNewButton_5 = new JButton("Adicionar");
@@ -203,7 +203,7 @@ public class SoftwareQualityClass {
 				calculaEvidencia(objetos);
 			}
 		});
-		btnNewButton_5.setBounds(334, 373, 90, 23);
+		btnNewButton_5.setBounds(262, 407, 90, 23);
 		frame.getContentPane().add(btnNewButton_5);
 		
 		JLabel lblNewLabel_2 = new JLabel("Engenharia de Requisitos");
@@ -216,7 +216,7 @@ public class SoftwareQualityClass {
 		
 		textField_6 = new JTextField();
 		textField_6.setColumns(10);
-		textField_6.setBounds(67, 276, 179, 20);
+		textField_6.setBounds(95, 278, 179, 20);
 		frame.getContentPane().add(textField_6);
 		
 		JLabel lblNewLabel_1_5_2 = new JLabel("REQ5");
@@ -225,7 +225,7 @@ public class SoftwareQualityClass {
 		
 		textField_7 = new JTextField();
 		textField_7.setColumns(10);
-		textField_7.setBounds(67, 311, 179, 20);
+		textField_7.setBounds(95, 313, 179, 20);
 		frame.getContentPane().add(textField_7);
 		
 		JLabel lblNewLabel_1_5_3 = new JLabel("REQ6");
@@ -234,7 +234,7 @@ public class SoftwareQualityClass {
 		
 		textField_8 = new JTextField();
 		textField_8.setColumns(10);
-		textField_8.setBounds(67, 343, 179, 20);
+		textField_8.setBounds(95, 345, 179, 20);
 		frame.getContentPane().add(textField_8);
 		
 		JLabel lblNewLabel_1_5_4 = new JLabel("REQ7");
@@ -243,7 +243,7 @@ public class SoftwareQualityClass {
 		
 		textField_9 = new JTextField();
 		textField_9.setColumns(10);
-		textField_9.setBounds(67, 374, 179, 20);
+		textField_9.setBounds(95, 376, 179, 20);
 		frame.getContentPane().add(textField_9);
 		
 		JSeparator separator = new JSeparator();
@@ -251,53 +251,53 @@ public class SoftwareQualityClass {
 		frame.getContentPane().add(separator);
 		
 		textField_10 = new JTextField();
-		textField_10.setBounds(253, 40, 71, 20);
+		textField_10.setBounds(281, 42, 71, 20);
 		frame.getContentPane().add(textField_10);
 		textField_10.setColumns(10);
 		
 		textField_11 = new JTextField();
 		textField_11.setColumns(10);
-		textField_11.setBounds(253, 69, 71, 20);
+		textField_11.setBounds(281, 71, 71, 20);
 		frame.getContentPane().add(textField_11);
 		
 		textField_12 = new JTextField();
 		textField_12.setColumns(10);
-		textField_12.setBounds(253, 98, 71, 20);
+		textField_12.setBounds(281, 100, 71, 20);
 		frame.getContentPane().add(textField_12);
 		
 		textField_13 = new JTextField();
 		textField_13.setColumns(10);
-		textField_13.setBounds(253, 127, 71, 20);
+		textField_13.setBounds(281, 129, 71, 20);
 		frame.getContentPane().add(textField_13);
 		
 		textField_14 = new JTextField();
 		textField_14.setColumns(10);
-		textField_14.setBounds(253, 156, 71, 20);
+		textField_14.setBounds(281, 158, 71, 20);
 		frame.getContentPane().add(textField_14);
 		
 		textField_15 = new JTextField();
 		textField_15.setColumns(10);
-		textField_15.setBounds(253, 185, 71, 20);
+		textField_15.setBounds(281, 187, 71, 20);
 		frame.getContentPane().add(textField_15);
 		
 		textField_16 = new JTextField();
 		textField_16.setColumns(10);
-		textField_16.setBounds(253, 276, 71, 20);
+		textField_16.setBounds(281, 278, 71, 20);
 		frame.getContentPane().add(textField_16);
 		
 		textField_17 = new JTextField();
 		textField_17.setColumns(10);
-		textField_17.setBounds(253, 311, 71, 20);
+		textField_17.setBounds(281, 313, 71, 20);
 		frame.getContentPane().add(textField_17);
 		
 		textField_18 = new JTextField();
 		textField_18.setColumns(10);
-		textField_18.setBounds(253, 343, 71, 20);
+		textField_18.setBounds(281, 345, 71, 20);
 		frame.getContentPane().add(textField_18);
 		
 		textField_19 = new JTextField();
 		textField_19.setColumns(10);
-		textField_19.setBounds(253, 374, 71, 20);
+		textField_19.setBounds(281, 376, 71, 20);
 		frame.getContentPane().add(textField_19);
 	}
 	
